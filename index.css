@@ -1,0 +1,36 @@
+
+
+#begin-btn{
+    position: absolute;
+    width: 500px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+.product .container h5{
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.product .container h5:before, .product .container h5:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+
+}
+@media only screen and (max-width:767px){
+    .btn{
+        border: none;
+        background-color:none
+    }
+    .nav-item{
+        text-align: center;
+        
+    }
+    #begin-btn{
+        width:200px
+        
+    }}
